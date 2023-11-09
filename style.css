@@ -1,0 +1,27 @@
+.fullpage{
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+    background-color: #FFFD92;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidebar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.mainpage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    /* background-color: #FFFD92; */
+    border-radius: 20px;
+}
